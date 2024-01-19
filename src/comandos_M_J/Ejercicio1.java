@@ -11,6 +11,8 @@ public class Ejercicio1 {
 		int num2;
 
 		int suma;
+		
+		int resta;
 
 		Scanner sc = new Scanner(System.in);
 
@@ -26,6 +28,14 @@ public class Ejercicio1 {
 			System.out.println("La suma de " + num1 + " + " + num2 + " = " + suma + " --> La solución es ¡PAR!");
 		} else {
 			System.out.println("La suma de " + num1 + " + " + num2 + " = " + suma + " --> La solución es ¡IMPAR!");
+		}
+		
+		resta = num1 - num2;
+		
+		if (suma % 2 == 0) {
+			System.out.println("La resta de " + num1 + " - " + num2 + " = " + resta + " --> La solución es ¡PAR!");
+		} else {
+			System.out.println("La resta de " + num1 + " - " + num2 + " = " + resta + " --> La solución es ¡IMPAR!");
 		}
 
 		sc.close();
